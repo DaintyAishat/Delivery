@@ -1,0 +1,81 @@
+/*Google font - Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+body{
+    
+    background-color: #E5E5E5;
+}
+.main{
+    background-color: #fff;
+    padding: 2em;
+    width: 50%;
+    align-items: center;
+   margin: 2rem auto;
+    justify-content: center;
+}
+.logo{
+    margin: 2em;
+}
+ .main .header{
+    background-color: #F27A5F;
+    font-weight : 900;
+    display: flex;
+    padding: 0 20px ;
+    margin: 0.5rem auto;
+    text-align: justify;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 10vh;
+    text-align: center;
+    align-items: center;
+    width: 45vw;
+    height: fit-content;
+    border-radius: 12px;
+}
+.main .header h1{
+    font-size: 2.2rem;
+    padding: 3rem;
+    font-weight: 700;
+}
+div.bike img{
+    height: 20vh;
+}
+.text{
+    margin: 1.5rem;
+    padding: 0.5rem;
+
+}
+.text .hello{
+    font-weight: 600;
+    padding: 2rem 0;
+}
+.main .footer {
+   text-align: center;
+   text-decoration: none;
+   margin: 2rem;
+}
+.main .footer a:not(.span){
+    text-decoration: none;
+    color: #d97708;
+    margin: 0 1em;
+    font-weight: 500;
+}
+.main .footer p{
+    margin: 1rem;
+}
+.footer .small{
+    font-size: 12px;
+}
+.footer p:not(.app), .footer p:not(.app), .span {
+    font-size: 15px;
+    color: #687083;
+}
+.main .footer .span{
+
+}
