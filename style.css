@@ -51,9 +51,10 @@ div.bike img{
     padding: 0.5rem;
 
 }
-.text .hello{
+.text .hello, .hello{
     font-weight: 600;
     padding: 2rem 0;
+    color: #000;
 }
 .main .footer {
    text-align: center;
@@ -78,4 +79,42 @@ div.bike img{
 }
 .main .footer .span{
 
+}
+.main .button{
+    color: #fff;
+    background-color: #d97708;
+    border-radius: 50px;
+    height: fit-content;
+    width: 8rem;
+    padding: 1rem;
+   margin: auto 0;
+   border: #d97708;
+   transition-duration: 0.1s;
+}
+.main .button:hover{
+    font-weight: 700;
+    width: 9rem;
+}
+.address .deli{
+    margin: 2rem -1rem;
+}
+.address{
+    margin-left: 3rem;
+}
+.address p{
+    padding: 5px;
+    color: #687083;
+}
+table{
+    width: 100%;
+    margin: 1rem;
+}
+table td, table th,table tr{
+    margin: 2rem;
+}
+.flex{
+    display: flex;
+    color: #d97708;
+    align-self: flex-end;
+    justify-content: flex-end;
 }
