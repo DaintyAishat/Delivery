@@ -37,6 +37,8 @@ body{
     width: 45vw;
     height: fit-content;
     border-radius: 12px;
+    position: relative;
+    background: cover;
 }
 .main .header h1{
     font-size: 2.2rem;
@@ -45,6 +47,8 @@ body{
 }
 div.bike img{
     height: 20vh;
+    position: relative;
+    width: 100%;
 }
 .text{
     margin: 1.5rem;
@@ -147,3 +151,51 @@ div.number{
 .span{
     color: #d97708;
 }
+
+/*Responsiveness*/
+/* On screens that are 600px or less */
+@media screen and (max-width: 992px) {
+    .main{
+        padding: 0.5em;
+        width: 80%;
+        align-items: center;
+       margin: 0.5rem auto;
+    }
+    .main .header{
+        font-weight : 600;
+        padding: 0 10px ;
+        margin: 0.5rem auto;
+        font-size: 2rem;
+        width: 65vw;
+        height: auto;
+        border-radius: 12px;
+    }
+   
+    .text .hello, .hello {
+        padding: 0.5rem 0 1rem 0;
+      }
+      
+  }
+  
+  /* On screens that are 600px or less */
+  @media screen and (max-width: 600px) {
+    *{
+        font-size: 1rem;
+    }
+    logo {
+        margin: 1em;
+    }
+    .main .header h1 {
+        font-size: 1.5rem;
+        padding: 1rem;
+        font-weight: 700;
+    }
+    .text{
+        margin: 0;
+    }
+    .text .hello, .hello {
+        padding: 1rem 0;
+    }
+   
+  }
+  
