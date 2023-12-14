@@ -84,9 +84,6 @@ div.bike img{
     font-size: 15px;
     color: #687083;
 }
-.main .footer .span{
-
-}
 .main .button{
     color: #fff;
     background-color: #d97708;
@@ -161,6 +158,9 @@ div.number{
         align-items: center;
        margin: 0.5rem auto;
     }
+    .logo{
+        margin: 1.5em;
+    }
     .main .header{
         font-weight : 600;
         padding: 0 10px ;
@@ -173,6 +173,7 @@ div.number{
    
     .text .hello, .hello {
         padding: 0.5rem 0 1rem 0;
+        text-align: center;
       }
       
   }
@@ -182,7 +183,7 @@ div.number{
     *{
         font-size: 1rem;
     }
-    logo {
+    .logo {
         margin: 1em;
     }
     .main .header h1 {
@@ -195,6 +196,7 @@ div.number{
     }
     .text .hello, .hello {
         padding: 1rem 0;
+        text-align: center;
     }
    
   }
