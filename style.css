@@ -55,7 +55,7 @@ div.bike img{
     padding: 0.5rem;
 
 }
-.text .hello, .hello{
+.text .hello, .hello, .hello1{
     font-weight: 600;
     padding: 2rem 0;
     color: #000;
@@ -83,9 +83,6 @@ div.bike img{
 .footer p:not(.app), .footer p:not(.app), .span {
     font-size: 15px;
     color: #687083;
-}
-.main .footer .span{
-
 }
 .main .button{
     color: #fff;
@@ -151,15 +148,32 @@ div.number{
 .span{
     color: #d97708;
 }
+div.btn{
+    display: flex;
+    justify-content: space-around;
+}
+div.btn button {
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 
 /*Responsiveness*/
-/* On screens that are 600px or less */
+/* On screens that are 992px or less */
 @media screen and (max-width: 992px) {
     .main{
         padding: 0.5em;
         width: 80%;
         align-items: center;
        margin: 0.5rem auto;
+    }
+    .logo{
+        margin: 1.5em;
     }
     .main .header{
         font-weight : 600;
@@ -170,19 +184,21 @@ div.number{
         height: auto;
         border-radius: 12px;
     }
-   
+  
     .text .hello, .hello {
         padding: 0.5rem 0 1rem 0;
-      }
-      
+       }
+      .hello1{
+        text-align: center;     
   }
-  
+}  
+
   /* On screens that are 600px or less */
   @media screen and (max-width: 600px) {
     *{
         font-size: 1rem;
     }
-    logo {
+    .logo {
         margin: 1em;
     }
     .main .header h1 {
@@ -195,7 +211,50 @@ div.number{
     }
     .text .hello, .hello {
         padding: 1rem 0;
+
     }
-   
+    .hello1{
+        text-align: center;
+        }
   }
-  
+
+  /* On screens that are 450px or less */
+  @media screen and (max-width: 450px) {
+    *{
+        font-size: 1rem;
+    }
+    .logo {
+        margin: 1em;
+    }
+    .main{
+        width: 100%;
+    }
+    .main .header{
+        width: 90vw;
+    }
+    .main .header h1 {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        font-weight: 700;
+    }
+    div.text{
+        margin: 0;
+        padding: 1rem;
+    }
+    .text .hello, .hello {
+        padding: 1rem 0;
+   }
+   .hello1{
+    text-align: center;
+    }
+    .main .footer a:not(.span) {
+        margin: 0;
+        font-weight: 400;
+    }
+    .download {
+        width: 100%;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
