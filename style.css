@@ -55,7 +55,7 @@ div.bike img{
     padding: 0.5rem;
 
 }
-.text .hello, .hello{
+.text .hello, .hello, .hello1{
     font-weight: 600;
     padding: 2rem 0;
     color: #000;
@@ -173,9 +173,10 @@ div.number{
    
     .text .hello, .hello {
         padding: 0.5rem 0 1rem 0;
+       }
+      .hello1{
         text-align: center;
-      }
-      
+        
   }
   
   /* On screens that are 600px or less */
@@ -196,8 +197,49 @@ div.number{
     }
     .text .hello, .hello {
         padding: 1rem 0;
-        text-align: center;
+
     }
-   
+    .hello1{
+        text-align: center;
+        }
   }
   
+  @media screen and (max-width: 450px) {
+    *{
+        font-size: 1rem;
+    }
+    .logo {
+        margin: 1em;
+    }
+    .main{
+        width: 100%;
+    }
+    .main .header{
+        width: 90vw;
+    }
+    .main .header h1 {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        font-weight: 700;
+    }
+    div.text{
+        margin: 0;
+        padding: 1rem;
+    }
+    .text .hello, .hello {
+        padding: 1rem 0;
+   }
+   .hello1{
+    text-align: center;
+    }
+    .main .footer a:not(.span) {
+        margin: 0;
+        font-weight: 400;
+    }
+    .download {
+        width: 100%;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-around;
+    }
+  }
